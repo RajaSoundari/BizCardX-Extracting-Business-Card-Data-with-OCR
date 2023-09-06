@@ -9,11 +9,11 @@ import matplotlib.pyplot as plt
 import re
 
 #postgresql connection
-host = 'localhost'
-port = '5432'
-database = 'postgres'
-username = 'postgres'
-password = 'rajasoundari'
+host = 'xxx'
+port = 'xxx'
+database = 'xxx'
+username = 'xxx'
+password = 'xxx'
 
 eta = psycopg2.connect(host=host, port=port, database=database, user=username, password=password)
 cursor=eta.cursor()
